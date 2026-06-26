@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,100..900;1,100..900&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="comprar.css">
+    <title>FORCE WHEY Chocolate 900g | Force Suplements</title>
+</head>
+
+<body>
+    <div class="faixa">
+        Frete grátis a partir de R$ 199,90!
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="inicio.html"> <img src="image-Photoroom (2).svg" alt="Force"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">produtos</a></li>
+                <li><a href="promocoes.html">promos</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="busca">
+            <input type="text" placeholder="o que você procura?">
+        </div>
+
+        <div class="icones">
+            <span class="material-symbols-outlined">search</span>
+            <span class="material-symbols-outlined">shopping_cart</span>
+            <a href="login.html"> <span id="lupa" class="material-symbols-outlined">person</span></a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="card_foto_whey">
+            <img src="whey.choco.png" alt="" class="foto-whey">
+        </div>
+
+        <div class="descricao">
+
+            <div class="estrela_sabor">
+                <section class="estrelas"> ★★★★★ </section>
+                <h1> FORCE WHEY CHOCOLATE - 900g</h1>
+            </div>
+
+            <div class="valor">
+
+                <div class="valor1">
+                    <p class="preço1"> R$269,00</p>
+                </div>
+
+                <div class="valor2">
+                    <p class="preço2"> R$249,00</p>
+                </div>
+
+            </div>
+
+            <div class="textos">
+                <p class="parcela"> Ou 3x de R$83,00 </p>
+
+                <p class="texto"> Textura cremosa e o clássico sabor de chocolate em cada dose.</p>
+
+                <p class="variação"> Outros sabores</p>
+            </div>
+
+            <div class="sabores_geral">
+
+                <div class="sabor">
+                    <img src="whey.cookies.png" alt="Whey Cookies" class="imagem-whey"
+                        style="background-color: #135a86">
+                </div>
+
+                <div class="sabor">
+                    <img src="whey.paçoca.png" alt="Whey Paçoca" class="imagem-whey" style="background-color: #b9740b;">
+                </div>
+
+                <div class="sabor">
+                    <img src="whey.pistache.png" alt="Whey Pistache" class="imagem-whey"
+                        style="background-color: #8B7E3D;">
+                </div>
+
+                <div class="sabor">
+                    <img src="whey.ovomaltine.png" alt="Whey Ovomaltine" class="imagem-whey"
+                        style="background-color: #EC592A;">
+                </div>
+
+            </div>
+            <div class="botoes">
+                <div class="contador">
+                    <button type="button" onclick="diminuir()">−</button>
+
+                    <input type="number" id="quantidade" value="1" min="1">
+
+                    <button type="button" onclick="aumentar()">+</button>
+                </div>
+
+                <script>
+                    function aumentar() {
+                        document.getElementById("quantidade").stepUp();
+                    }
+
+                    function diminuir() {
+                        document.getElementById("quantidade").stepDown();
+                    }
+                </script>
+
+                <input class="adicionar" type="submit" value="ADICIONAR">
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <h2>force</h2>
+                <span>supplements</span>
+            </div>
+
+            <div class="footer-col">
+                <h3>Produtos</h3>
+                <p>Whey</p>
+                <p>Creatina</p>
+                <p>Barras proteicas</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Empresa</h3>
+                <p>Sobre nós</p>
+                <p>Loja mais próxima</p>
+                <p>FAQ</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <p>Rastrear pedido</p>
+                <p>Fale conosco</p>
+                <p>Seja um revendedor</p>
+            </div>
+
+        </div>
+
+        <hr class="hr">
+        <section class="fim">
+            <a class="voltar" href="comprar.html"> VOLTAR AO TOPO</a>
+            <div class="copyright">
+                © 2026 Force Supplements — Todos os direitos reservados.
+            </div>
+
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

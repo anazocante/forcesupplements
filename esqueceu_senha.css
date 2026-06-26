@@ -1,0 +1,110 @@
+label {
+    font-family: 'Poiret one';
+    font-weight: bold;
+    text-align: right;
+    margin-right: 120px;
+    font-size: 20px;
+    color: #F4F4F4;
+    text-align: start;
+}
+
+.mail {
+    margin-right: 125px;
+}
+
+.senha {
+    margin-right: 85px;
+}
+
+.conf {
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Poiret one';
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poiret one';
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.bot {
+
+    width: 150px;
+    background-color: #F4F4F4;
+    color: rgb(8, 103, 117);
+    border-radius: 20px;
+    border-color: #F4F4F4;
+    padding: 8px;
+    font-family: 'Poiret one';
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+body {
+
+    background-color: #1DB7AB;
+}
+
+:placeholder-shown {
+    font-family: 'Poiret one';
+    font-weight: bold;
+    border: #F4F4F4;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.logo2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 110px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.paragrafo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: #F4F4F4;
+    font-weight: 800;
+}
+
+
+main {
+    margin-top: 150px;
+}
+
+.mail {
+    margin-left: -132px;
+    margin-top: -5px;
+    margin-bottom: -7px;
+}
+
+.senha {
+    margin-left: -120px;
+    margin-top: -5px;
+    margin-bottom: -7px;
+}
+
+.conf {
+    margin-left: -100px;
+    margin-top: -5px;
+    margin-bottom: -7px;
+}
